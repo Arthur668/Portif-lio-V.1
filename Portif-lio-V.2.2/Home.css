@@ -1,0 +1,145 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+min-height: 100svh;
+background-color: black;
+font-weight:100vh;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    
+}
+h1{
+    position: relative;
+    left: 82svh;
+    top: 40svh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+}
+a,p{
+
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 100;
+}
+#ltbar{
+    position: relative;
+    top:28svh;
+    left: 2svh;
+    border: 2px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 3px white);
+    background-color: white;
+    height: 358px;
+    width: 86px;
+    
+}
+#art{
+    padding-right: 28svh;
+    padding-left: 10svh;
+    color:white;
+}
+#ho{
+    padding-right: 22svh;
+    color:white;
+
+}
+#pro{
+padding-right: 25svh;
+color:white;
+
+}
+#Sob{
+    padding-right: 25svh;
+    color:white;
+
+}
+#mat{
+    color:white;
+    position: relative;
+    
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+}
+.link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: left;
+    transition: scale 0.25s;
+}
+.link:hover::before {
+    scale: 1;
+}
+
+img{
+    
+    position: fixed;
+    z-index: -1;
+}
+#email{
+    padding-left: 5px;
+    
+
+}
+#linkedin{
+    padding-left: 15px;
+    padding-bottom: 40px;
+
+}
+#github{
+    padding-left: 8px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+#ft{
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+}
+.content-box{
+    background: ffffff 10px;        
+    width: 50%;
+    height: fit-content;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+}
