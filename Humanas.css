@@ -1,27 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+
 #ho{
     padding-right: 10svh;
     color:white;
     margin-left: 70px;
 }
-#pro{
-padding-right: 25svh;
-color:white;
-
-}
-#Sob{
-    padding-right: 21svh;
-
-    color:white;
-
-}
-#mat{
-    color:white;
-    position: relative;
-    
-}
-a,p{
+a,p,li{
 
     width: fit-content;
     font-family: 'Poppins', sans-serif;
@@ -30,11 +15,6 @@ a,p{
     text-decoration: none;
     color: inherit;
     font-weight: 100;
-}
-#art{
-    padding-right: 28svh;
-    padding-left: 10svh;
-    color:white;
 }
 .link {
     position: relative;
