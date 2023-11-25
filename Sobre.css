@@ -24,7 +24,7 @@ body{
         background: ffffff 10px;        
         width: 50%;
         height: fit-content;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(10px);
         justify-content: center;
         align-items: center;
         display: flex;
